@@ -1,0 +1,87 @@
+#container {
+    padding: 2rem;
+    width: 500px;
+    height: 580px;
+    background: #eee;
+    text-align: center;
+    justify-content: center;
+    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: 15px;
+}
+#container div div{
+    position: relative;
+}
+#container div span{
+    position: relative;
+}
+#container div span #toggleBtn{
+    position: absolute;
+    top: -8px;
+    left: 178px;
+    width: 30px;
+    height: 30px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container div span #toggleBtn::before, #c_toggleBtn::before{
+    content: '\f06e';
+    font-family: fontAwesome;
+}
+#container div span #toggleBtn.hide::before, #c_toggleBtn.hide::before{
+    content: '\f070';
+}
+#container div span #c_toggleBtn{
+    position: absolute;
+    top: -8px;
+    left: 178px;
+    width: 30px;
+    height: 30px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.validation{
+    position: absolute;
+    background: #ccc;
+    width: 350px;
+    height: 140px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+}
+.validation ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.validation ul li{
+    position: relative;
+    letter-spacing: 1.3px;
+    list-style: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+.validation ul li::before{
+    content:'\f192';
+    width: 20px;
+    height: 10px;
+    font-family: fontAwesome;
+    display: inline-flex;
+}
+.validation ul li.valid::before{
+    content: '\f00c';
+    color: #0f0;
+}

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../../font/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+:root{
+    --color1: rgb(255, 0, 0);
+    --color2: rgb(220, 71, 71);
+}
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #9cccff;
+    font-weight: 500;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1.4rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+header .logo{
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+header .navbar a{
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: #666;
+    text-decoration: none;
+}
+header .navbar a:hover,
+header .navbar a.active{
+    background-color: #555;
+    color: #fff;
+}
+
+#container  div{
+    position :relative;
+}
+#container  div #error{
+    text-align: center;
+    justify-content: center;
+    display: none;
+    border-radius: 6px;
+    width: 92.5%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-family: 'Gantari', sans-serif;
+    color: #fff;
+    background: var(--color1);
+    border: 5px solid var(--color2);
+    opacity: 0.7;
+    transition: transform 0.5s ease-in;
+    animation:  vibration 0.5s ease-in;
+}
+@keyframes vibration {
+    0%{
+        transform: translate(2%);
+    }
+    25%{
+        transform: translateX(-2%);
+    }
+    50%{
+        transform: translateX(2%);
+    }
+    75%{
+        transform: translateX(-2%);
+    }
+    100%{
+        transform: translateX(2%);
+    }
+    
+}
+#container  div h1{
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+#container  div input{
+    width: 200px;
+    height: 35px;
+    margin: 1rem;
+    padding: 0.65rem;
+    border-radius: 4px;
+}
+#container  div label{
+    font-size: 1.4rem;
+}
+/* ::placeholder {
+    padding-left: 5px;
+} */
+#container  div a{
+    position :absolute;
+    transform: translate(-50%,50%);
+    font-size: 1.3rem;
+    color: #0000ee;
+}
