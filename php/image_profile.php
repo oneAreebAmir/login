@@ -41,7 +41,6 @@ if(isset($_SESSION['username']) && isset($_SESSION['unique_id']) && $_SESSION['r
                         echo "success";
                     }
                 }
-                exit();
             }
             else{
                 echo 'Only JPG, JPEG & PNG files are allowed.';
