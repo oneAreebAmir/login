@@ -1,7 +1,7 @@
 # login
 Author : Areeb Amir
 Created : 18th November 2022
-Description : Created a website containing login form, logup form, verification form, mailing verification-code, logout, deletion of the account, setting of the profile, uploading the image and redirection of web files. It is user friendly and responsive website. It is made with the help of HTML, CSS, Javascript, PHP, MySQL and Ajax 
+Description : Created a website containing login form, logup form, verification form, mailing verification-code, logout, deletion of the account, setting of the profile, uploading the image and redirecting of web files. It is user friendly and responsive website. It is made with the help of HTML, CSS, Javascript, PHP, MySQL and Ajax 
 
 # PHPMailer
 In order to handle mailing between server and client or user, we need PHPMailer to send email to any user who want to make account. They will get verification code for user authentication.
