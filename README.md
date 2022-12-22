@@ -1,6 +1,6 @@
 # login
-Author : Areeb Amir
-Created : 18th November 2022
+Author : Areeb Amir,
+Created : 18th November 2022,
 Description : Created a website containing login form, logup form, verification form, mailing verification-code, logout, deletion of the account, setting of the profile, uploading the image and redirecting of web files. It is user friendly and responsive website.
 
 # PHPMailer
@@ -20,5 +20,5 @@ Yes it need and contain database from the server. To create database, tables, an
 You need to place that file in your any server e.g xampp, putty etc. And run the server. Browse the folder name, It will automatically redirect to main webfile.
 
 # Want to be touch with me?
-https://youtube.com/@AreebAmir
-https://twitter.com/oneAreebAmir
+https://www.youtube.com/@AreebAmir
+https://www.twitter.com/oneAreebAmir
