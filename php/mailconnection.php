@@ -16,12 +16,12 @@ function ConnectMail(){
     
     $mail->SMTPAuth = true;
     
-    $mail->Username = 'oneareebamir@outlook.com';
+    $mail->Username = 'Your-Email';
     
-    $mail->Password = 'Areeb105!@';
+    $mail->Password = 'Your-Password';
     
-    $mail->setFrom('oneareebamir@outlook.com', 'Areeb Amir');
+    $mail->setFrom('Your-Email', 'Login');
     
-    $mail->addReplyTo('oneareebamir@outlook.com', 'Areeb Amir');
+    $mail->addReplyTo('Your-Replying-Email', 'Login');
 }
 ?>
